@@ -1,0 +1,15 @@
+.productContainer{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid slategray;
+    border-radius: 10px;
+    background-color: rgb(91, 109, 109);
+    text-align: center;
+}
+.productContainer h5{
+    display: inline-block;
+}
+.productContainer h3{
+    display: block;
+}
