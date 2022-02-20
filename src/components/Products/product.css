@@ -2,14 +2,35 @@
     display: flex;
     margin: 20px;
     padding: 20px;
-    border: 1px solid slategray;
-    border-radius: 10px;
-    background-color: rgb(91, 109, 109);
-    text-align: center;
+    border: 1px solid rgb(215, 220, 225);
+    border-radius: 4px;
+    background-color:white;
+    box-shadow: 0 4px 8px 0 rgba(56, 54, 54, 0.2), 0 6px 20px 0 rgba(176, 159, 159, 0.19);
+
 }
-.productContainer h5{
-    display: inline-block;
+.imgContainer{
+    margin-right: 10px;;
 }
-.productContainer h3{
-    display: block;
+.descContainer{
+    margin-left: 25px;
+}
+
+.descContainer h3{
+    color: #232f3e;
+}
+.spanColor{
+    color: green;
+    font-weight: bold;
+}
+.addCartBtn{
+    background-color:#37475a; 
+    color: aliceblue;
+    border: 1px solid #232f3e;
+    border-radius: 5px;
+    padding:5px 40px;
+}
+.addCartBtn:hover{
+    background-color:aliceblue; 
+    color: #37475a;
+    box-shadow: 0 4px 8px 0 rgba(35, 34, 34, 0.2), 0 6px 20px 0 rgba(94, 66, 66, 0.19);
 }

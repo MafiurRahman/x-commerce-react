@@ -9,7 +9,12 @@ const Header = () => {
                 <a href="/shop">Shop</a>
                 <a href="/orders">Order Review</a>
                 <a href="/inventory">Manage Inventory</a>
-            </div></>
+        </div>
+        <div className="searchBar">
+            <input className='inputBox' type="text" />
+            <button className="searchBtn">SEARCH</button>
+        </div>
+        </>
 
     );
 };
